@@ -1,6 +1,6 @@
 // import styles from './Navbar.module.css'
 
-import './navbar.scss';
+import './Navbar.scss';
 
 import { Logo, NewRating, Search } from '../assets/assets'
 function Navbar() {

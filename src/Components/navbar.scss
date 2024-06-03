@@ -45,6 +45,7 @@
 }
 
 .btn{
+    display: flex;
     background-color: #222;
     color: #FFF;
     padding: 0.7em 1.2em;
@@ -52,4 +53,18 @@
     transition: .5s;
     cursor: pointer;
     border: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5.5em;
+    border-radius: 2px;
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-weight: 60;
+}
+.btn:hover{
+    color: #ffbb33;
+
+}
+.ratingIcon{
+    margin-right: .5em;
+    color:#FFBB33
 }

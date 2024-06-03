@@ -1,0 +1,33 @@
+.slideMenu{
+    border-right: 1px solid #9b9b9bcc;
+    height: 90.2vh;
+    width: 30vh;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    font-family: "Schibsted Grotesk", sans-serif; 
+    font-weight: 500;
+    padding-top: 2em;
+
+    li{
+        margin-top: 2em;
+        cursor: pointer; 
+        transition: .5s;
+        a{
+            align-items: center;
+            display:flex;
+            margin-right: 4em;
+            li:hover .icon{
+                fill: #ffbb33;
+            }
+        }
+        .icon{
+            margin-right: 1em;
+        }
+    } 
+    li:hover{
+        color: #ffbb33;
+    }
+}
