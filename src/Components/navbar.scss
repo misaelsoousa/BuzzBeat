@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.search{
+    margin-right: 1em;
+    padding: 5px;
+    display: flex;
+
+    input{
+        width: 637px;
+        padding: 8px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgba(#474747, .15);
+    }
+
+    .searchIcon{
+        margin-right: .5rem;
+    }
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    p{
+        font-family: "Schibsted Grotesk", sans-serif;
+        
+        span{
+          font-family: "Schibsted Grotesk", sans-serif;  
+          font-weight: 900;
+        }
+    
+    }
+}
+
+
+
+.logoIcon{
+    margin-right: .5rem;
+}
+
+.btn{
+    background-color: #222;
+    color: #FFF;
+    padding: 0.7em 1.2em;
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+    border: none;
+}
